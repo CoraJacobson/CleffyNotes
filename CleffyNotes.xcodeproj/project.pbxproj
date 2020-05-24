@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A6BE11B247AB86400682370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE11A247AB86400682370 /* AppDelegate.swift */; };
+		1A6BE11D247AB86400682370 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE11C247AB86400682370 /* SceneDelegate.swift */; };
+		1A6BE11F247AB86400682370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE11E247AB86400682370 /* ViewController.swift */; };
+		1A6BE122247AB86400682370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6BE120247AB86400682370 /* Main.storyboard */; };
+		1A6BE124247AB86600682370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6BE123247AB86600682370 /* Assets.xcassets */; };
+		1A6BE127247AB86600682370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6BE125247AB86600682370 /* LaunchScreen.storyboard */; };
+		1A6BE132247AB86700682370 /* CleffyNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE131247AB86700682370 /* CleffyNotesTests.swift */; };
+		1A6BE13D247AB86700682370 /* CleffyNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE13C247AB86700682370 /* CleffyNotesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A6BE12E247AB86700682370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6BE10F247AB86400682370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6BE116247AB86400682370;
+			remoteInfo = CleffyNotes;
+		};
+		1A6BE139247AB86700682370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6BE10F247AB86400682370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6BE116247AB86400682370;
+			remoteInfo = CleffyNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A6BE117247AB86400682370 /* CleffyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleffyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6BE11A247AB86400682370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A6BE11C247AB86400682370 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A6BE11E247AB86400682370 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A6BE121247AB86400682370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A6BE123247AB86600682370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A6BE126247AB86600682370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A6BE128247AB86600682370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6BE12D247AB86700682370 /* CleffyNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleffyNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6BE131247AB86700682370 /* CleffyNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleffyNotesTests.swift; sourceTree = "<group>"; };
+		1A6BE133247AB86700682370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6BE138247AB86700682370 /* CleffyNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleffyNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6BE13C247AB86700682370 /* CleffyNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleffyNotesUITests.swift; sourceTree = "<group>"; };
+		1A6BE13E247AB86700682370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6BE114247AB86400682370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6BE12A247AB86700682370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6BE135247AB86700682370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6BE10E247AB86400682370 = {
+			isa = PBXGroup;
+			children = (
+				1A6BE119247AB86400682370 /* CleffyNotes */,
+				1A6BE130247AB86700682370 /* CleffyNotesTests */,
+				1A6BE13B247AB86700682370 /* CleffyNotesUITests */,
+				1A6BE118247AB86400682370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A6BE118247AB86400682370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A6BE117247AB86400682370 /* CleffyNotes.app */,
+				1A6BE12D247AB86700682370 /* CleffyNotesTests.xctest */,
+				1A6BE138247AB86700682370 /* CleffyNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A6BE119247AB86400682370 /* CleffyNotes */ = {
+			isa = PBXGroup;
+			children = (
+				1A6BE11A247AB86400682370 /* AppDelegate.swift */,
+				1A6BE11C247AB86400682370 /* SceneDelegate.swift */,
+				1A6BE11E247AB86400682370 /* ViewController.swift */,
+				1A6BE120247AB86400682370 /* Main.storyboard */,
+				1A6BE123247AB86600682370 /* Assets.xcassets */,
+				1A6BE125247AB86600682370 /* LaunchScreen.storyboard */,
+				1A6BE128247AB86600682370 /* Info.plist */,
+			);
+			path = CleffyNotes;
+			sourceTree = "<group>";
+		};
+		1A6BE130247AB86700682370 /* CleffyNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6BE131247AB86700682370 /* CleffyNotesTests.swift */,
+				1A6BE133247AB86700682370 /* Info.plist */,
+			);
+			path = CleffyNotesTests;
+			sourceTree = "<group>";
+		};
+		1A6BE13B247AB86700682370 /* CleffyNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6BE13C247AB86700682370 /* CleffyNotesUITests.swift */,
+				1A6BE13E247AB86700682370 /* Info.plist */,
+			);
+			path = CleffyNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A6BE116247AB86400682370 /* CleffyNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6BE141247AB86700682370 /* Build configuration list for PBXNativeTarget "CleffyNotes" */;
+			buildPhases = (
+				1A6BE113247AB86400682370 /* Sources */,
+				1A6BE114247AB86400682370 /* Frameworks */,
+				1A6BE115247AB86400682370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CleffyNotes;
+			productName = CleffyNotes;
+			productReference = 1A6BE117247AB86400682370 /* CleffyNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A6BE12C247AB86700682370 /* CleffyNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6BE144247AB86700682370 /* Build configuration list for PBXNativeTarget "CleffyNotesTests" */;
+			buildPhases = (
+				1A6BE129247AB86700682370 /* Sources */,
+				1A6BE12A247AB86700682370 /* Frameworks */,
+				1A6BE12B247AB86700682370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6BE12F247AB86700682370 /* PBXTargetDependency */,
+			);
+			name = CleffyNotesTests;
+			productName = CleffyNotesTests;
+			productReference = 1A6BE12D247AB86700682370 /* CleffyNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A6BE137247AB86700682370 /* CleffyNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6BE147247AB86700682370 /* Build configuration list for PBXNativeTarget "CleffyNotesUITests" */;
+			buildPhases = (
+				1A6BE134247AB86700682370 /* Sources */,
+				1A6BE135247AB86700682370 /* Frameworks */,
+				1A6BE136247AB86700682370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6BE13A247AB86700682370 /* PBXTargetDependency */,
+			);
+			name = CleffyNotesUITests;
+			productName = CleffyNotesUITests;
+			productReference = 1A6BE138247AB86700682370 /* CleffyNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6BE10F247AB86400682370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Cora Jacobson";
+				TargetAttributes = {
+					1A6BE116247AB86400682370 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1A6BE12C247AB86700682370 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1A6BE116247AB86400682370;
+					};
+					1A6BE137247AB86700682370 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1A6BE116247AB86400682370;
+					};
+				};
+			};
+			buildConfigurationList = 1A6BE112247AB86400682370 /* Build configuration list for PBXProject "CleffyNotes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A6BE10E247AB86400682370;
+			productRefGroup = 1A6BE118247AB86400682370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6BE116247AB86400682370 /* CleffyNotes */,
+				1A6BE12C247AB86700682370 /* CleffyNotesTests */,
+				1A6BE137247AB86700682370 /* CleffyNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6BE115247AB86400682370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6BE127247AB86600682370 /* LaunchScreen.storyboard in Resources */,
+				1A6BE124247AB86600682370 /* Assets.xcassets in Resources */,
+				1A6BE122247AB86400682370 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6BE12B247AB86700682370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6BE136247AB86700682370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6BE113247AB86400682370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6BE11F247AB86400682370 /* ViewController.swift in Sources */,
+				1A6BE11B247AB86400682370 /* AppDelegate.swift in Sources */,
+				1A6BE11D247AB86400682370 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6BE129247AB86700682370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6BE132247AB86700682370 /* CleffyNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6BE134247AB86700682370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6BE13D247AB86700682370 /* CleffyNotesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A6BE12F247AB86700682370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6BE116247AB86400682370 /* CleffyNotes */;
+			targetProxy = 1A6BE12E247AB86700682370 /* PBXContainerItemProxy */;
+		};
+		1A6BE13A247AB86700682370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6BE116247AB86400682370 /* CleffyNotes */;
+			targetProxy = 1A6BE139247AB86700682370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A6BE120247AB86400682370 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6BE121247AB86400682370 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A6BE125247AB86600682370 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6BE126247AB86600682370 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A6BE13F247AB86700682370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A6BE140247AB86700682370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A6BE142247AB86700682370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 739A4FRA34;
+				INFOPLIST_FILE = CleffyNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoraJacobson.CleffyNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A6BE143247AB86700682370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 739A4FRA34;
+				INFOPLIST_FILE = CleffyNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoraJacobson.CleffyNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A6BE145247AB86700682370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 739A4FRA34;
+				INFOPLIST_FILE = CleffyNotesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoraJacobson.CleffyNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleffyNotes.app/CleffyNotes";
+			};
+			name = Debug;
+		};
+		1A6BE146247AB86700682370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 739A4FRA34;
+				INFOPLIST_FILE = CleffyNotesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoraJacobson.CleffyNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleffyNotes.app/CleffyNotes";
+			};
+			name = Release;
+		};
+		1A6BE148247AB86700682370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 739A4FRA34;
+				INFOPLIST_FILE = CleffyNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoraJacobson.CleffyNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CleffyNotes;
+			};
+			name = Debug;
+		};
+		1A6BE149247AB86700682370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 739A4FRA34;
+				INFOPLIST_FILE = CleffyNotesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CoraJacobson.CleffyNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CleffyNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6BE112247AB86400682370 /* Build configuration list for PBXProject "CleffyNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6BE13F247AB86700682370 /* Debug */,
+				1A6BE140247AB86700682370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6BE141247AB86700682370 /* Build configuration list for PBXNativeTarget "CleffyNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6BE142247AB86700682370 /* Debug */,
+				1A6BE143247AB86700682370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6BE144247AB86700682370 /* Build configuration list for PBXNativeTarget "CleffyNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6BE145247AB86700682370 /* Debug */,
+				1A6BE146247AB86700682370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6BE147247AB86700682370 /* Build configuration list for PBXNativeTarget "CleffyNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6BE148247AB86700682370 /* Debug */,
+				1A6BE149247AB86700682370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6BE10F247AB86400682370 /* Project object */;
+}
