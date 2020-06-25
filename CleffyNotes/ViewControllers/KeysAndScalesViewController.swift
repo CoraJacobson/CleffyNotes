@@ -151,7 +151,7 @@ extension KeysAndScalesViewController: UIPickerViewDelegate, UIPickerViewDataSou
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        scaleImageView.image = modeController?.chooseImage(keyAndModePickerView.selectedRow(inComponent: 0), keyAndModePickerView.selectedRow(inComponent: 1))
+        scaleImageView.image = modeController?.modes[keyAndModePickerView.selectedRow(inComponent: 1)].scaleImage
         self.scale = modeController?.createScale(keyAndModePickerView.selectedRow(inComponent: 0), keyAndModePickerView.selectedRow(inComponent: 1))
         updateScale()
     }

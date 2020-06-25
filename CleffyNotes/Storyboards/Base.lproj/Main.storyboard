@@ -16,16 +16,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GlQ-Ip-iwB">
-                                <rect key="frame" x="27.5" y="74" width="320" height="120"/>
+                                <rect key="frame" x="27.5" y="84" width="320" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="VDQ-Xx-32r"/>
                                 </constraints>
                             </pickerView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="N8l-t3-66q">
-                                <rect key="frame" x="67.5" y="224" width="240" height="100"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ionian" translatesAutoresizingMaskIntoConstraints="NO" id="N8l-t3-66q">
+                                <rect key="frame" x="67.5" y="244" width="240" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="XOo-j1-St9"/>
-                                    <constraint firstAttribute="height" constant="100" id="jOF-po-E71"/>
+                                    <constraint firstAttribute="height" constant="76" id="jOF-po-E71"/>
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="140" translatesAutoresizingMaskIntoConstraints="NO" id="EKQ-rm-CiS">
@@ -54,7 +54,7 @@ Aeolian is the Natural Minor scale.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="II" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="35" translatesAutoresizingMaskIntoConstraints="NO" id="ZCI-hH-fnm">
-                                <rect key="frame" x="90" y="504" width="35" height="30"/>
+                                <rect key="frame" x="90" y="500" width="35" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="1gs-ob-2Jv"/>
@@ -65,7 +65,7 @@ Aeolian is the Natural Minor scale.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="III" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="35" translatesAutoresizingMaskIntoConstraints="NO" id="H3S-cP-BJh">
-                                <rect key="frame" x="130" y="474" width="35" height="30"/>
+                                <rect key="frame" x="130" y="470" width="35" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="GQz-3R-60I"/>
@@ -76,7 +76,7 @@ Aeolian is the Natural Minor scale.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="35" translatesAutoresizingMaskIntoConstraints="NO" id="keO-B8-UQW">
-                                <rect key="frame" x="170" y="444" width="35" height="30"/>
+                                <rect key="frame" x="170" y="440" width="35" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="L1R-VN-phL"/>
@@ -87,7 +87,7 @@ Aeolian is the Natural Minor scale.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="35" translatesAutoresizingMaskIntoConstraints="NO" id="3wx-Pz-hAR">
-                                <rect key="frame" x="210" y="414" width="35" height="30"/>
+                                <rect key="frame" x="210" y="410" width="35" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="35" id="dfD-aK-vxF"/>
@@ -98,7 +98,7 @@ Aeolian is the Natural Minor scale.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="35" translatesAutoresizingMaskIntoConstraints="NO" id="rKe-MN-Jpw">
-                                <rect key="frame" x="250" y="384" width="35" height="30"/>
+                                <rect key="frame" x="250" y="380" width="35" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="gZW-NL-C8y"/>
@@ -109,7 +109,7 @@ Aeolian is the Natural Minor scale.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VII" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="35" translatesAutoresizingMaskIntoConstraints="NO" id="omw-IX-qt6">
-                                <rect key="frame" x="290" y="354" width="35" height="30"/>
+                                <rect key="frame" x="290" y="350" width="35" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="2Ao-W4-Fru"/>
@@ -120,7 +120,7 @@ Aeolian is the Natural Minor scale.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2XS-CR-ZzA">
-                                <rect key="frame" x="50" y="354" width="125" height="61.5"/>
+                                <rect key="frame" x="50" y="350" width="125" height="61.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show In:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PiD-a5-hbf">
                                         <rect key="frame" x="28.5" y="0.0" width="68.5" height="20.5"/>
@@ -141,7 +141,7 @@ Aeolian is the Natural Minor scale.</string>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="35" translatesAutoresizingMaskIntoConstraints="NO" id="dru-O4-Qp0">
-                                <rect key="frame" x="50" y="534" width="35" height="30"/>
+                                <rect key="frame" x="50" y="530" width="35" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="1RV-IQ-8oc"/>
@@ -152,7 +152,7 @@ Aeolian is the Natural Minor scale.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pattern for this Mode:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGu-nK-wob">
-                                <rect key="frame" x="100.5" y="201.5" width="174" height="20.5"/>
+                                <rect key="frame" x="100.5" y="213.5" width="174" height="20.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -160,9 +160,9 @@ Aeolian is the Natural Minor scale.</string>
                         </subviews>
                         <color key="backgroundColor" red="0.87064868210000002" green="0.80259168150000004" blue="0.87844103569999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="N8l-t3-66q" firstAttribute="top" secondItem="GlQ-Ip-iwB" secondAttribute="bottom" constant="30" id="0EV-EI-FLm"/>
+                            <constraint firstItem="N8l-t3-66q" firstAttribute="top" secondItem="GlQ-Ip-iwB" secondAttribute="bottom" constant="40" id="0EV-EI-FLm"/>
                             <constraint firstItem="dru-O4-Qp0" firstAttribute="leading" secondItem="2XS-CR-ZzA" secondAttribute="leading" id="2Ua-4j-3eD"/>
-                            <constraint firstItem="N8l-t3-66q" firstAttribute="top" secondItem="PGu-nK-wob" secondAttribute="bottom" constant="2" id="3op-sr-PTC"/>
+                            <constraint firstItem="N8l-t3-66q" firstAttribute="top" secondItem="PGu-nK-wob" secondAttribute="bottom" constant="10" id="3op-sr-PTC"/>
                             <constraint firstItem="EKQ-rm-CiS" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" id="5X0-0c-cdi"/>
                             <constraint firstItem="keO-B8-UQW" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" id="8Mn-Eh-4By"/>
                             <constraint firstItem="GlQ-Ip-iwB" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" id="8kn-h0-zr2"/>
@@ -184,7 +184,7 @@ Aeolian is the Natural Minor scale.</string>
                             <constraint firstItem="EKQ-rm-CiS" firstAttribute="top" secondItem="U6z-Ec-GwA" secondAttribute="top" constant="30" id="pER-ak-Q6h"/>
                             <constraint firstItem="H3S-cP-BJh" firstAttribute="top" secondItem="N8l-t3-66q" secondAttribute="bottom" constant="150" id="rHx-PC-uUg"/>
                             <constraint firstItem="N8l-t3-66q" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" id="uyR-p5-Jcy"/>
-                            <constraint firstItem="GlQ-Ip-iwB" firstAttribute="top" secondItem="U6z-Ec-GwA" secondAttribute="top" constant="30" id="vVB-TF-AJe"/>
+                            <constraint firstItem="GlQ-Ip-iwB" firstAttribute="top" secondItem="U6z-Ec-GwA" secondAttribute="top" constant="40" id="vVB-TF-AJe"/>
                             <constraint firstItem="omw-IX-qt6" firstAttribute="top" secondItem="N8l-t3-66q" secondAttribute="bottom" constant="30" id="yVn-dB-OAk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="U6z-Ec-GwA"/>
@@ -469,4 +469,7 @@ Aeolian is the Natural Minor scale.</string>
             <point key="canvasLocation" x="-844" y="7.6461769115442282"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Ionian" width="240" height="76"/>
+    </resources>
 </document>
