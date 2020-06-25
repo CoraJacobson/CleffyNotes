@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A5BB1CC247AD3220046B211 /* KeysAndScalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BB1CB247AD3220046B211 /* KeysAndScalesViewController.swift */; };
 		1A6BE11B247AB86400682370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE11A247AB86400682370 /* AppDelegate.swift */; };
 		1A6BE11D247AB86400682370 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE11C247AB86400682370 /* SceneDelegate.swift */; };
-		1A6BE11F247AB86400682370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE11E247AB86400682370 /* ViewController.swift */; };
+		1A6BE11F247AB86400682370 /* TranspositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE11E247AB86400682370 /* TranspositionViewController.swift */; };
 		1A6BE122247AB86400682370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6BE120247AB86400682370 /* Main.storyboard */; };
 		1A6BE124247AB86600682370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6BE123247AB86600682370 /* Assets.xcassets */; };
 		1A6BE127247AB86600682370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6BE125247AB86600682370 /* LaunchScreen.storyboard */; };
 		1A6BE132247AB86700682370 /* CleffyNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE131247AB86700682370 /* CleffyNotesTests.swift */; };
 		1A6BE13D247AB86700682370 /* CleffyNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE13C247AB86700682370 /* CleffyNotesUITests.swift */; };
+		1A8EA8CD249B146100E91C62 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8EA8CC249B146100E91C62 /* Key.swift */; };
+		1A8EA8D0249C45A900E91C62 /* KeyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8EA8CF249C45A900E91C62 /* KeyController.swift */; };
+		1AA22F83247AE62F00272670 /* FeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA22F82247AE62F00272670 /* FeaturesViewController.swift */; };
+		1AE3CF8124A1B58300BD4FA6 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3CF8024A1B58300BD4FA6 /* Mode.swift */; };
+		1AE3CF8324A1B5DF00BD4FA6 /* ModeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3CF8224A1B5DF00BD4FA6 /* ModeController.swift */; };
+		1AE3CFB624A2F62A00BD4FA6 /* ThemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3CFB524A2F62A00BD4FA6 /* ThemeHelper.swift */; };
+		1AE3CFB824A2F6A700BD4FA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3CFB724A2F6A700BD4FA6 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A5BB1CB247AD3220046B211 /* KeysAndScalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysAndScalesViewController.swift; sourceTree = "<group>"; };
 		1A6BE117247AB86400682370 /* CleffyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleffyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6BE11A247AB86400682370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A6BE11C247AB86400682370 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A6BE11E247AB86400682370 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A6BE11E247AB86400682370 /* TranspositionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranspositionViewController.swift; sourceTree = "<group>"; };
 		1A6BE121247AB86400682370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A6BE123247AB86600682370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A6BE126247AB86600682370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		1A6BE138247AB86700682370 /* CleffyNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleffyNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6BE13C247AB86700682370 /* CleffyNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleffyNotesUITests.swift; sourceTree = "<group>"; };
 		1A6BE13E247AB86700682370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A8EA8CC249B146100E91C62 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		1A8EA8CF249C45A900E91C62 /* KeyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyController.swift; sourceTree = "<group>"; };
+		1AA22F82247AE62F00272670 /* FeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesViewController.swift; sourceTree = "<group>"; };
+		1AE3CF8024A1B58300BD4FA6 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Mode.swift; path = CleffyNotes/ViewControllers/Mode.swift; sourceTree = SOURCE_ROOT; };
+		1AE3CF8224A1B5DF00BD4FA6 /* ModeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeController.swift; sourceTree = "<group>"; };
+		1AE3CFB524A2F62A00BD4FA6 /* ThemeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThemeHelper.swift; path = ModelControllers/ThemeHelper.swift; sourceTree = "<group>"; };
+		1AE3CFB724A2F6A700BD4FA6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +117,13 @@
 			children = (
 				1A6BE11A247AB86400682370 /* AppDelegate.swift */,
 				1A6BE11C247AB86400682370 /* SceneDelegate.swift */,
-				1A6BE11E247AB86400682370 /* ViewController.swift */,
-				1A6BE120247AB86400682370 /* Main.storyboard */,
+				1AE3CFB524A2F62A00BD4FA6 /* ThemeHelper.swift */,
+				1AE3CFB724A2F6A700BD4FA6 /* Constants.swift */,
+				1A8EA8CE249B146900E91C62 /* Models */,
+				1AE3CF7F24A1A5B600BD4FA6 /* ModelControllers */,
+				1A6BE14C247AC0FF00682370 /* ViewControllers */,
+				1A8EA8D2249C639200E91C62 /* Storyboards */,
 				1A6BE123247AB86600682370 /* Assets.xcassets */,
-				1A6BE125247AB86600682370 /* LaunchScreen.storyboard */,
 				1A6BE128247AB86600682370 /* Info.plist */,
 			);
 			path = CleffyNotes;
@@ -126,6 +145,43 @@
 				1A6BE13E247AB86700682370 /* Info.plist */,
 			);
 			path = CleffyNotesUITests;
+			sourceTree = "<group>";
+		};
+		1A6BE14C247AC0FF00682370 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AA22F82247AE62F00272670 /* FeaturesViewController.swift */,
+				1A6BE11E247AB86400682370 /* TranspositionViewController.swift */,
+				1A5BB1CB247AD3220046B211 /* KeysAndScalesViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1A8EA8CE249B146900E91C62 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A8EA8CC249B146100E91C62 /* Key.swift */,
+				1AE3CF8024A1B58300BD4FA6 /* Mode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A8EA8D2249C639200E91C62 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1A6BE125247AB86600682370 /* LaunchScreen.storyboard */,
+				1A6BE120247AB86400682370 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1AE3CF7F24A1A5B600BD4FA6 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A8EA8CF249C45A900E91C62 /* KeyController.swift */,
+				1AE3CF8224A1B5DF00BD4FA6 /* ModeController.swift */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +315,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A6BE11F247AB86400682370 /* ViewController.swift in Sources */,
+				1A5BB1CC247AD3220046B211 /* KeysAndScalesViewController.swift in Sources */,
+				1AE3CFB824A2F6A700BD4FA6 /* Constants.swift in Sources */,
+				1A6BE11F247AB86400682370 /* TranspositionViewController.swift in Sources */,
+				1AE3CF8124A1B58300BD4FA6 /* Mode.swift in Sources */,
+				1AE3CFB624A2F62A00BD4FA6 /* ThemeHelper.swift in Sources */,
+				1AA22F83247AE62F00272670 /* FeaturesViewController.swift in Sources */,
 				1A6BE11B247AB86400682370 /* AppDelegate.swift in Sources */,
+				1AE3CF8324A1B5DF00BD4FA6 /* ModeController.swift in Sources */,
 				1A6BE11D247AB86400682370 /* SceneDelegate.swift in Sources */,
+				1A8EA8CD249B146100E91C62 /* Key.swift in Sources */,
+				1A8EA8D0249C45A900E91C62 /* KeyController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
