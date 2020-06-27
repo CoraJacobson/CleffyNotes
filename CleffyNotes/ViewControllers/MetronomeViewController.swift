@@ -81,6 +81,11 @@ class MetronomeViewController: UIViewController {
     }()
     
     override func viewDidLoad() {
+        do {
+            try AudioKit.stop()
+        } catch {
+            print("error")
+        }
         super.viewDidLoad()
         setTheme()
         timeSignaturePicker.delegate = self

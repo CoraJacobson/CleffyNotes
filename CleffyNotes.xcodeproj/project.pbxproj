@@ -140,8 +140,8 @@
 			children = (
 				1A6BE11A247AB86400682370 /* AppDelegate.swift */,
 				1A6BE11C247AB86400682370 /* SceneDelegate.swift */,
-				1AE3CFB524A2F62A00BD4FA6 /* ThemeHelper.swift */,
 				1AE3CFB724A2F6A700BD4FA6 /* Constants.swift */,
+				1AE3CFB524A2F62A00BD4FA6 /* ThemeHelper.swift */,
 				1A8EA8CE249B146900E91C62 /* Models */,
 				1AE3CF7F24A1A5B600BD4FA6 /* ModelControllers */,
 				1A6BE14C247AC0FF00682370 /* ViewControllers */,
