@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1A5BB1CC247AD3220046B211 /* KeysAndScalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5BB1CB247AD3220046B211 /* KeysAndScalesViewController.swift */; };
+		1A5EB46D24A58C3A003BF7C4 /* MetronomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EB46C24A58C3A003BF7C4 /* MetronomeViewController.swift */; };
+		1A5EB46F24A5AFBD003BF7C4 /* TimeSignature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EB46E24A5AFBD003BF7C4 /* TimeSignature.swift */; };
+		1A5EB47124A5B193003BF7C4 /* TimeSignatureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5EB47024A5B193003BF7C4 /* TimeSignatureController.swift */; };
 		1A6BE11B247AB86400682370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE11A247AB86400682370 /* AppDelegate.swift */; };
 		1A6BE11D247AB86400682370 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE11C247AB86400682370 /* SceneDelegate.swift */; };
 		1A6BE11F247AB86400682370 /* TranspositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6BE11E247AB86400682370 /* TranspositionViewController.swift */; };
@@ -23,6 +26,9 @@
 		1AE3CF8324A1B5DF00BD4FA6 /* ModeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3CF8224A1B5DF00BD4FA6 /* ModeController.swift */; };
 		1AE3CFB624A2F62A00BD4FA6 /* ThemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3CFB524A2F62A00BD4FA6 /* ThemeHelper.swift */; };
 		1AE3CFB824A2F6A700BD4FA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE3CFB724A2F6A700BD4FA6 /* Constants.swift */; };
+		35AB16A31C69C18F36756BA4 /* Pods_CleffyNotesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D8F9D25F7234A97BE70857 /* Pods_CleffyNotesTests.framework */; };
+		3CD966FABEE1E7E3A569B787 /* Pods_CleffyNotes_CleffyNotesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41161A6D7B5969DDD3CCBA4C /* Pods_CleffyNotes_CleffyNotesUITests.framework */; };
+		BB52FC7082B71891174EB7F3 /* Pods_CleffyNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2A4DFAD845698480F5A05C /* Pods_CleffyNotes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,9 @@
 
 /* Begin PBXFileReference section */
 		1A5BB1CB247AD3220046B211 /* KeysAndScalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysAndScalesViewController.swift; sourceTree = "<group>"; };
+		1A5EB46C24A58C3A003BF7C4 /* MetronomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MetronomeViewController.swift; path = CleffyNotes/ViewControllers/MetronomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		1A5EB46E24A5AFBD003BF7C4 /* TimeSignature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSignature.swift; sourceTree = "<group>"; };
+		1A5EB47024A5B193003BF7C4 /* TimeSignatureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSignatureController.swift; sourceTree = "<group>"; };
 		1A6BE117247AB86400682370 /* CleffyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleffyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6BE11A247AB86400682370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A6BE11C247AB86400682370 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +74,15 @@
 		1AE3CF8224A1B5DF00BD4FA6 /* ModeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeController.swift; sourceTree = "<group>"; };
 		1AE3CFB524A2F62A00BD4FA6 /* ThemeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThemeHelper.swift; path = ModelControllers/ThemeHelper.swift; sourceTree = "<group>"; };
 		1AE3CFB724A2F6A700BD4FA6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2442A1D5A1C954E8F5A1636B /* Pods-CleffyNotesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleffyNotesTests.debug.xcconfig"; path = "Target Support Files/Pods-CleffyNotesTests/Pods-CleffyNotesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C49B98D99C1F2D0C4D6C03A /* Pods-CleffyNotesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleffyNotesTests.release.xcconfig"; path = "Target Support Files/Pods-CleffyNotesTests/Pods-CleffyNotesTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B2A4DFAD845698480F5A05C /* Pods_CleffyNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleffyNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41161A6D7B5969DDD3CCBA4C /* Pods_CleffyNotes_CleffyNotesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleffyNotes_CleffyNotesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42371FA0BEFC3E2B94635E52 /* Pods-CleffyNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleffyNotes.release.xcconfig"; path = "Target Support Files/Pods-CleffyNotes/Pods-CleffyNotes.release.xcconfig"; sourceTree = "<group>"; };
+		575BDB2001D5D8A2300828D1 /* Pods-CleffyNotes-CleffyNotesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleffyNotes-CleffyNotesUITests.release.xcconfig"; path = "Target Support Files/Pods-CleffyNotes-CleffyNotesUITests/Pods-CleffyNotes-CleffyNotesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		96D8F9D25F7234A97BE70857 /* Pods_CleffyNotesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleffyNotesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC207641395E6CC2ADEFAA1 /* Pods-CleffyNotes-CleffyNotesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleffyNotes-CleffyNotesUITests.debug.xcconfig"; path = "Target Support Files/Pods-CleffyNotes-CleffyNotesUITests/Pods-CleffyNotes-CleffyNotesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB4F7DD8154A2CAD3E41985A /* Pods-CleffyNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleffyNotes.debug.xcconfig"; path = "Target Support Files/Pods-CleffyNotes/Pods-CleffyNotes.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB52FC7082B71891174EB7F3 /* Pods_CleffyNotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AB16A31C69C18F36756BA4 /* Pods_CleffyNotesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CD966FABEE1E7E3A569B787 /* Pods_CleffyNotes_CleffyNotesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +120,8 @@
 				1A6BE130247AB86700682370 /* CleffyNotesTests */,
 				1A6BE13B247AB86700682370 /* CleffyNotesUITests */,
 				1A6BE118247AB86400682370 /* Products */,
+				5C3EC90C25B9471CE58410EA /* Pods */,
+				66AD7CD6DD5F30F4A79949E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +176,7 @@
 				1AA22F82247AE62F00272670 /* FeaturesViewController.swift */,
 				1A6BE11E247AB86400682370 /* TranspositionViewController.swift */,
 				1A5BB1CB247AD3220046B211 /* KeysAndScalesViewController.swift */,
+				1A5EB46C24A58C3A003BF7C4 /* MetronomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -162,6 +186,7 @@
 			children = (
 				1A8EA8CC249B146100E91C62 /* Key.swift */,
 				1AE3CF8024A1B58300BD4FA6 /* Mode.swift */,
+				1A5EB46E24A5AFBD003BF7C4 /* TimeSignature.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -180,8 +205,32 @@
 			children = (
 				1A8EA8CF249C45A900E91C62 /* KeyController.swift */,
 				1AE3CF8224A1B5DF00BD4FA6 /* ModeController.swift */,
+				1A5EB47024A5B193003BF7C4 /* TimeSignatureController.swift */,
 			);
 			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		5C3EC90C25B9471CE58410EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB4F7DD8154A2CAD3E41985A /* Pods-CleffyNotes.debug.xcconfig */,
+				42371FA0BEFC3E2B94635E52 /* Pods-CleffyNotes.release.xcconfig */,
+				DBC207641395E6CC2ADEFAA1 /* Pods-CleffyNotes-CleffyNotesUITests.debug.xcconfig */,
+				575BDB2001D5D8A2300828D1 /* Pods-CleffyNotes-CleffyNotesUITests.release.xcconfig */,
+				2442A1D5A1C954E8F5A1636B /* Pods-CleffyNotesTests.debug.xcconfig */,
+				2C49B98D99C1F2D0C4D6C03A /* Pods-CleffyNotesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		66AD7CD6DD5F30F4A79949E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B2A4DFAD845698480F5A05C /* Pods_CleffyNotes.framework */,
+				41161A6D7B5969DDD3CCBA4C /* Pods_CleffyNotes_CleffyNotesUITests.framework */,
+				96D8F9D25F7234A97BE70857 /* Pods_CleffyNotesTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A6BE141247AB86700682370 /* Build configuration list for PBXNativeTarget "CleffyNotes" */;
 			buildPhases = (
+				C45796A420770D740F06C032 /* [CP] Check Pods Manifest.lock */,
 				1A6BE113247AB86400682370 /* Sources */,
 				1A6BE114247AB86400682370 /* Frameworks */,
 				1A6BE115247AB86400682370 /* Resources */,
@@ -208,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A6BE144247AB86700682370 /* Build configuration list for PBXNativeTarget "CleffyNotesTests" */;
 			buildPhases = (
+				CF38AE2B1B502988F2F3EC87 /* [CP] Check Pods Manifest.lock */,
 				1A6BE129247AB86700682370 /* Sources */,
 				1A6BE12A247AB86700682370 /* Frameworks */,
 				1A6BE12B247AB86700682370 /* Resources */,
@@ -226,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A6BE147247AB86700682370 /* Build configuration list for PBXNativeTarget "CleffyNotesUITests" */;
 			buildPhases = (
+				01AAC04827DE8C52DFE44FC7 /* [CP] Check Pods Manifest.lock */,
 				1A6BE134247AB86700682370 /* Sources */,
 				1A6BE135247AB86700682370 /* Frameworks */,
 				1A6BE136247AB86700682370 /* Resources */,
@@ -310,14 +362,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01AAC04827DE8C52DFE44FC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleffyNotes-CleffyNotesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C45796A420770D740F06C032 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleffyNotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF38AE2B1B502988F2F3EC87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CleffyNotesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A6BE113247AB86400682370 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A5BB1CC247AD3220046B211 /* KeysAndScalesViewController.swift in Sources */,
+				1A5EB46D24A58C3A003BF7C4 /* MetronomeViewController.swift in Sources */,
 				1AE3CFB824A2F6A700BD4FA6 /* Constants.swift in Sources */,
+				1A5EB46F24A5AFBD003BF7C4 /* TimeSignature.swift in Sources */,
 				1A6BE11F247AB86400682370 /* TranspositionViewController.swift in Sources */,
+				1A5EB47124A5B193003BF7C4 /* TimeSignatureController.swift in Sources */,
 				1AE3CF8124A1B58300BD4FA6 /* Mode.swift in Sources */,
 				1AE3CFB624A2F62A00BD4FA6 /* ThemeHelper.swift in Sources */,
 				1AA22F83247AE62F00272670 /* FeaturesViewController.swift in Sources */,
@@ -496,6 +620,7 @@
 		};
 		1A6BE142247AB86700682370 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4F7DD8154A2CAD3E41985A /* Pods-CleffyNotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -514,6 +639,7 @@
 		};
 		1A6BE143247AB86700682370 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42371FA0BEFC3E2B94635E52 /* Pods-CleffyNotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +658,7 @@
 		};
 		1A6BE145247AB86700682370 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2442A1D5A1C954E8F5A1636B /* Pods-CleffyNotesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -554,6 +681,7 @@
 		};
 		1A6BE146247AB86700682370 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C49B98D99C1F2D0C4D6C03A /* Pods-CleffyNotesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -576,6 +704,7 @@
 		};
 		1A6BE148247AB86700682370 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC207641395E6CC2ADEFAA1 /* Pods-CleffyNotes-CleffyNotesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -596,6 +725,7 @@
 		};
 		1A6BE149247AB86700682370 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 575BDB2001D5D8A2300828D1 /* Pods-CleffyNotes-CleffyNotesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -12,10 +12,12 @@ class FeaturesViewController: UIViewController {
 
     let keyController = KeyController()
     let modeController = ModeController()
+    let timeSignatureController = TimeSignatureController()
     let themeHelper = ThemeHelper()
     
     @IBOutlet weak var transposition: UIButton!
     @IBOutlet weak var keysAndScales: UIButton!
+    @IBOutlet weak var metronome: UIButton!
     @IBOutlet weak var changeThemeButton: UIButton!
     
     override func viewDidLoad() {
@@ -49,6 +51,11 @@ class FeaturesViewController: UIViewController {
                 keysAndScalesVC.modeController = modeController
                 keysAndScalesVC.themeHelper = themeHelper
             }
+        case "metronomeShowSegue":
+            if let metronomeVC = segue.destination as? MetronomeViewController {
+                metronomeVC.themeHelper = themeHelper
+                metronomeVC.timeSignatureController = timeSignatureController
+            }
         default:
             return
         }
@@ -57,6 +64,7 @@ class FeaturesViewController: UIViewController {
     func setTheme() {
         transposition.layer.cornerRadius = 8
         keysAndScales.layer.cornerRadius = 8
+        metronome.layer.cornerRadius = 8
         changeThemeButton.layer.cornerRadius = 8
         if let theme = themeHelper.themePreference {
             switch theme {
@@ -64,18 +72,21 @@ class FeaturesViewController: UIViewController {
                 view.backgroundColor = .myLightGreen
                 transposition.backgroundColor = .myGreen
                 keysAndScales.backgroundColor = .myGreen
+                metronome.backgroundColor = .myGreen
                 changeThemeButton.backgroundColor = .myGreen
                 navigationController?.navigationBar.barTintColor = .myGreen
             case "Blue":
                 view.backgroundColor = .myLightBlue
                 transposition.backgroundColor = .myBlue
                 keysAndScales.backgroundColor = .myBlue
+                metronome.backgroundColor = .myBlue
                 changeThemeButton.backgroundColor = .myBlue
                 navigationController?.navigationBar.barTintColor = .myBlue
             default:
                 view.backgroundColor = .myLightPurple
                 transposition.backgroundColor = .myPurple
                 keysAndScales.backgroundColor = .myPurple
+                metronome.backgroundColor = .myPurple
                 changeThemeButton.backgroundColor = .myPurple
                 navigationController?.navigationBar.barTintColor = .myPurple
             }
