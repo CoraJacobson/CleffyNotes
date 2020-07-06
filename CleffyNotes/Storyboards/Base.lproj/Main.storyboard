@@ -513,7 +513,7 @@ Aeolian is the Natural Minor scale.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMv-ww-BuI">
-                                <rect key="frame" x="113" y="226" width="150" height="100"/>
+                                <rect key="frame" x="112" y="226" width="150" height="100"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="2sZ-3a-wH9"/>
@@ -541,6 +541,7 @@ Aeolian is the Natural Minor scale.</string>
                     <navigationItem key="navigationItem" title="Metronome" id="wIA-fY-XbH"/>
                     <connections>
                         <outlet property="beatsPerMinuteLabel" destination="T8r-qa-r3p" id="WTu-5v-SbW"/>
+                        <outlet property="beatsSlider" destination="f8A-b7-cZA" id="Y05-PN-q7X"/>
                         <outlet property="displayBeatLabel" destination="ecA-eR-Ruu" id="GJ4-cN-SXd"/>
                         <outlet property="startButton" destination="guD-Ks-VQt" id="pgb-UN-9XB"/>
                         <outlet property="timeSignatureLabel" destination="aGB-iv-RuD" id="ExX-9L-JOV"/>

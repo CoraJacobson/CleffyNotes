@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct TimeSignature {
+struct TimeSignature: Equatable {
     var name: String
     var image: UIImage?
     var beats: Int

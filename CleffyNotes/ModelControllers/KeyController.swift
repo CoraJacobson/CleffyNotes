@@ -11,18 +11,18 @@ import UIKit
 class KeyController {
     
     var majorKeys: [Key] = [
-    Key(name: "A", nameImage: UIImage(named: "KeyA"), keySig: "3\u{266F}", keySigImage: UIImage(named: "Key3Sharps")),
-    Key(name: "A\u{266F} / B\u{266D}", nameImage: UIImage(named: "KeyASharp"), keySig: "2\u{266D}", keySigImage: UIImage(named: "Key2Flats")),
-    Key(name: "B", nameImage: UIImage(named: "KeyB"), keySig: "5\u{266F} / 7\u{266D}", keySigImage: UIImage(named: "Key5Sharps")),
-    Key(name: "C", nameImage: UIImage(named: "KeyCNote"), keySig: "no \u{266F} or \u{266D}", keySigImage: UIImage(named: "Key0")),
-    Key(name: "C\u{266F} / D\u{266D}", nameImage: UIImage(named: "KeyCSharp"), keySig: "7\u{266F} / 5\u{266D}", keySigImage: UIImage(named: "Key7Sharps")),
-    Key(name: "D", nameImage: UIImage(named: "KeyD"), keySig: "2\u{266F}", keySigImage: UIImage(named: "Key2Sharps")),
-    Key(name: "D\u{266F} / E\u{266D}", nameImage: UIImage(named: "KeyDSharp"), keySig: "3\u{266D}", keySigImage: UIImage(named: "Key3Flats")),
-    Key(name: "E", nameImage: UIImage(named: "KeyE"), keySig: "4\u{266F}", keySigImage: UIImage(named: "Key4Sharps")),
-    Key(name: "F", nameImage: UIImage(named: "KeyF"), keySig: "1\u{266D}", keySigImage: UIImage(named: "Key1Flat")),
-    Key(name: "F\u{266F} / G\u{266D}", nameImage: UIImage(named: "KeyFSharp"), keySig: "6\u{266F} / 6\u{266D}", keySigImage: UIImage(named: "Key6Sharps")),
-    Key(name: "G", nameImage: UIImage(named: "KeyG"), keySig: "1\u{266F}", keySigImage: UIImage(named: "Key1Sharp")),
-    Key(name: "G\u{266F} / A\u{266D}", nameImage: UIImage(named: "KeyGSharp"), keySig: "4\u{266D}", keySigImage: UIImage(named: "Key4Flats"))
+    Key(name: "A", nameImage: UIImage(named: "A"), keySig: "3\u{266F}", keySigImage: UIImage(named: "Key3Sharps")),
+    Key(name: "A\u{266F} / B\u{266D}", nameImage: UIImage(named: "ASharp"), keySig: "2\u{266D}", keySigImage: UIImage(named: "Key2Flats")),
+    Key(name: "B", nameImage: UIImage(named: "B"), keySig: "5\u{266F} / 7\u{266D}", keySigImage: UIImage(named: "Key5Sharps")),
+    Key(name: "C", nameImage: UIImage(named: "C"), keySig: "no \u{266F} or \u{266D}", keySigImage: UIImage(named: "Key0")),
+    Key(name: "C\u{266F} / D\u{266D}", nameImage: UIImage(named: "CSharp"), keySig: "7\u{266F} / 5\u{266D}", keySigImage: UIImage(named: "Key7Sharps")),
+    Key(name: "D", nameImage: UIImage(named: "D"), keySig: "2\u{266F}", keySigImage: UIImage(named: "Key2Sharps")),
+    Key(name: "D\u{266F} / E\u{266D}", nameImage: UIImage(named: "DSharp"), keySig: "3\u{266D}", keySigImage: UIImage(named: "Key3Flats")),
+    Key(name: "E", nameImage: UIImage(named: "E"), keySig: "4\u{266F}", keySigImage: UIImage(named: "Key4Sharps")),
+    Key(name: "F", nameImage: UIImage(named: "F"), keySig: "1\u{266D}", keySigImage: UIImage(named: "Key1Flat")),
+    Key(name: "F\u{266F} / G\u{266D}", nameImage: UIImage(named: "FSharp"), keySig: "6\u{266F} / 6\u{266D}", keySigImage: UIImage(named: "Key6Sharps")),
+    Key(name: "G", nameImage: UIImage(named: "G"), keySig: "1\u{266F}", keySigImage: UIImage(named: "Key1Sharp")),
+    Key(name: "G\u{266F} / A\u{266D}", nameImage: UIImage(named: "GSharp"), keySig: "4\u{266D}", keySigImage: UIImage(named: "Key4Flats"))
     ]
     
     

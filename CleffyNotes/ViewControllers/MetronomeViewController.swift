@@ -18,15 +18,19 @@ class MetronomeViewController: UIViewController {
         didSet {
             metronome.tempo = Double(tempo)
             metronome2.tempo = Double(tempo * 3)
+            timeSignatureController?.lastMetronomeSettings(tempo, index)
         }
     }
     
-    var timeSignature: TimeSignature = TimeSignature(name: "two4", image: nil, beats: 2, displayBeats: 2) {
+    var index: Int = 0 {
         didSet {
-            metronome.subdivision = timeSignature.beats
+            timeSignatureController?.lastMetronomeSettings(tempo, index)
+            metronome.subdivision = timeSignatureController?.timeSignatures[index].beats ?? 2
         }
     }
     
+    lazy var timeSignature: TimeSignature = timeSignatureController?.timeSignatures[index] ?? TimeSignature(name: "two4", image: UIImage(named: "two4"), beats: 2, displayBeats: 2)
+        
     var beatArray: [Int] = [1,2]
     var displayBeatIndex: Int = 0
 
@@ -35,6 +39,7 @@ class MetronomeViewController: UIViewController {
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var displayBeatLabel: UILabel!
     
+    @IBOutlet weak var beatsSlider: UISlider!
     @IBOutlet weak var timeSignaturePicker: UIPickerView!
     
     lazy var metronome: AKMetronome = {
@@ -90,6 +95,7 @@ class MetronomeViewController: UIViewController {
         setTheme()
         timeSignaturePicker.delegate = self
         timeSignaturePicker.dataSource = self
+        setMetronome()
         AudioKit.output = AKMixer(metronome, metronome2)
         do {
             try AudioKit.start()
@@ -103,7 +109,7 @@ class MetronomeViewController: UIViewController {
         metronome2.stop()
         metronome2.reset()
     }
-
+    
     @IBAction func beatsSlider(_ sender: UISlider) {
         tempo = Int(sender.value)
         beatsPerMinuteLabel.text = "Beats per Minute: \(tempo)"
@@ -163,6 +169,17 @@ class MetronomeViewController: UIViewController {
         } else { return }
     }
     
+    func setMetronome() {
+        if let timeSignatureController = timeSignatureController {
+            tempo = timeSignatureController.lastTempoUsed ?? 80
+            index = timeSignatureController.lastTimeUsed ?? 0
+            timeSignaturePicker.selectRow(index, inComponent: 0, animated: true)
+            timeSignature = timeSignatureController.timeSignatures[index]
+            beatsSlider.setValue(Float(tempo), animated: true)
+            beatsPerMinuteLabel.text = "Beats per Minute: \(tempo)"
+        }
+    }
+    
 }
 
 extension MetronomeViewController: UIPickerViewDelegate {
@@ -192,7 +209,8 @@ extension MetronomeViewController: UIPickerViewDataSource {
  
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if let timeSignatureController = timeSignatureController {
-            timeSignature = timeSignatureController.timeSignatures[row]
+            index = row
+            timeSignature = timeSignatureController.timeSignatures[index]
             beatArray = timeSignatureController.createBeatArray(timeSignature)
         }
         displayBeatIndex = 0

@@ -47,4 +47,28 @@ class TimeSignatureController {
         return array
     }
     
+    let tempoKey = "lastTempoUsed"
+    let timeSignatureKey = "lastTimeUsed"
+    
+    func lastMetronomeSettings(_ tempo: Int, _ index: Int) {
+        let lastTempoUsed = tempo
+        UserDefaults.standard.set(lastTempoUsed, forKey: tempoKey)
+        let lastTimeUsed = index
+        UserDefaults.standard.set(lastTimeUsed, forKey: timeSignatureKey)
+    }
+    
+    var lastTempoUsed: Int? {
+        return UserDefaults.standard.integer(forKey: tempoKey)
+    }
+    
+    var lastTimeUsed: Int? {
+        return UserDefaults.standard.integer(forKey: timeSignatureKey)
+    }
+    
+    init() {
+        if lastTempoUsed == nil || lastTimeUsed == nil {
+            lastMetronomeSettings(80, 0)
+        }
+    }
+    
 }
