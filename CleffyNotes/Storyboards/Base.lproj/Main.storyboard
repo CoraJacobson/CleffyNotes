@@ -157,6 +157,17 @@ Aeolian is the Natural Minor scale.</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waW-2a-6rJ">
+                                <rect key="frame" x="265" y="500" width="54" height="31"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="5" maxX="10" maxY="5"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playButton:" destination="87a-4H-eW0" eventType="touchUpInside" id="RA4-zq-Qki"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.87064868210000002" green="0.80259168150000004" blue="0.87844103569999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -169,15 +180,18 @@ Aeolian is the Natural Minor scale.</string>
                             <constraint firstItem="3wx-Pz-hAR" firstAttribute="top" secondItem="N8l-t3-66q" secondAttribute="bottom" constant="90" id="AG4-1A-bjc"/>
                             <constraint firstItem="ZCI-hH-fnm" firstAttribute="top" secondItem="N8l-t3-66q" secondAttribute="bottom" constant="180" id="AbC-fJ-guw"/>
                             <constraint firstItem="U6z-Ec-GwA" firstAttribute="bottom" secondItem="9Zj-zq-nLk" secondAttribute="bottom" constant="20" id="IEN-bj-Rfd"/>
+                            <constraint firstItem="waW-2a-6rJ" firstAttribute="top" secondItem="rKe-MN-Jpw" secondAttribute="bottom" constant="90" id="LPv-Kp-HYH"/>
                             <constraint firstItem="dru-O4-Qp0" firstAttribute="top" secondItem="N8l-t3-66q" secondAttribute="bottom" constant="210" id="NEO-Ie-Q9J"/>
                             <constraint firstItem="rKe-MN-Jpw" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" constant="80" id="Nrf-4p-sII"/>
                             <constraint firstItem="2XS-CR-ZzA" firstAttribute="top" secondItem="N8l-t3-66q" secondAttribute="bottom" constant="30" id="OuZ-3g-ct8"/>
+                            <constraint firstItem="waW-2a-6rJ" firstAttribute="leading" secondItem="ZCI-hH-fnm" secondAttribute="trailing" constant="140" id="P9r-nQ-nPi"/>
                             <constraint firstItem="9Zj-zq-nLk" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" id="VcL-uI-wFu"/>
                             <constraint firstItem="ZCI-hH-fnm" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" constant="-80" id="Vdp-cG-LrH"/>
                             <constraint firstItem="dru-O4-Qp0" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" constant="-120" id="Vh5-2S-sQB"/>
                             <constraint firstItem="keO-B8-UQW" firstAttribute="top" secondItem="N8l-t3-66q" secondAttribute="bottom" constant="120" id="Vh5-cK-QnG"/>
                             <constraint firstItem="3wx-Pz-hAR" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" constant="40" id="VjR-7K-sDG"/>
                             <constraint firstItem="H3S-cP-BJh" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" constant="-40" id="WSe-uq-Ld6"/>
+                            <constraint firstItem="U6z-Ec-GwA" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="waW-2a-6rJ" secondAttribute="trailing" symbolic="YES" id="Y0P-WT-gaw"/>
                             <constraint firstItem="PGu-nK-wob" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" id="gSv-T9-mE0"/>
                             <constraint firstItem="omw-IX-qt6" firstAttribute="centerX" secondItem="Qf9-6p-bsS" secondAttribute="centerX" constant="120" id="oHS-L8-f8H"/>
                             <constraint firstItem="rKe-MN-Jpw" firstAttribute="top" secondItem="N8l-t3-66q" secondAttribute="bottom" constant="60" id="p4w-RS-zBu"/>
@@ -201,6 +215,7 @@ Aeolian is the Natural Minor scale.</string>
                         <outlet property="modeLabel" destination="OSn-os-moa" id="2Ax-9O-OFE"/>
                         <outlet property="noteLabel" destination="9Zj-zq-nLk" id="Hnv-Pa-gO8"/>
                         <outlet property="patternLabel" destination="PGu-nK-wob" id="5MA-5u-AQD"/>
+                        <outlet property="playButton" destination="waW-2a-6rJ" id="jfC-b5-yXN"/>
                         <outlet property="scaleImageView" destination="N8l-t3-66q" id="ffm-QF-VLy"/>
                         <outlet property="showInLabel" destination="PiD-a5-hbf" id="gSo-wX-gSb"/>
                         <outlet property="vLabel" destination="3wx-Pz-hAR" id="7Mm-ko-eMh"/>
@@ -513,7 +528,7 @@ Aeolian is the Natural Minor scale.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EMv-ww-BuI">
-                                <rect key="frame" x="112" y="226" width="150" height="100"/>
+                                <rect key="frame" x="112.5" y="226" width="150" height="100"/>
                                 <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="2sZ-3a-wH9"/>
