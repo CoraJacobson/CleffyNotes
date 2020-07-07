@@ -51,6 +51,11 @@ class KeysAndScalesViewController: UIViewController {
     var flatSharpSetting: Int = 0
     
     override func viewDidLoad() {
+        do {
+            try AudioKit.stop()
+        } catch {
+            print("error")
+        }
         super.viewDidLoad()
         setTheme()
         updateScale()
