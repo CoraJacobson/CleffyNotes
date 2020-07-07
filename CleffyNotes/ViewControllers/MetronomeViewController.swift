@@ -171,8 +171,10 @@ class MetronomeViewController: UIViewController {
     
     func setMetronome() {
         if let timeSignatureController = timeSignatureController {
-            tempo = timeSignatureController.lastTempoUsed ?? 80
-            index = timeSignatureController.lastTimeUsed ?? 0
+            let lastTempo = timeSignatureController.lastTempoUsed ?? 80
+            let lastIndex = timeSignatureController.lastTimeUsed ?? 0
+            tempo = lastTempo
+            index = lastIndex
             timeSignaturePicker.selectRow(index, inComponent: 0, animated: true)
             timeSignature = timeSignatureController.timeSignatures[index]
             beatsSlider.setValue(Float(tempo), animated: true)
