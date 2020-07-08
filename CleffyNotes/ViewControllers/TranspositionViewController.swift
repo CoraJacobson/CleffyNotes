@@ -122,9 +122,7 @@ extension TranspositionViewController: UIPickerViewDataSource {
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        if let keyController = keyController {
-            return keyController.majorKeys.count
-        } else { return 0 }
+        return keyController?.majorKeys.count ?? 0
     }
     
     func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {

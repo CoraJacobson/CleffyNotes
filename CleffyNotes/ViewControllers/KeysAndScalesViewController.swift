@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import AudioKit
 
 class KeysAndScalesViewController: UIViewController {
 
     var keyController: KeyController?
     var modeController: ModeController?
     var themeHelper: ThemeHelper?
+    
+    let piano = AKRhodesPiano()
     
     @IBOutlet weak var keyAndModePickerView: UIPickerView!
     
@@ -34,6 +37,8 @@ class KeysAndScalesViewController: UIViewController {
     
     @IBOutlet weak var flatSharpSegmentedControl: UISegmentedControl!
     
+    @IBOutlet weak var playButton: UIButton!
+    
     var scale: [Note]? = [Note(sharpName: "A", flatName: "A", frequency: 220.00),
                          Note(sharpName: "B", flatName: "B", frequency: 246.94),
                          Note(sharpName: "C\u{266F}", flatName: "D\u{266D}", frequency: 277.18),
@@ -46,11 +51,24 @@ class KeysAndScalesViewController: UIViewController {
     var flatSharpSetting: Int = 0
     
     override func viewDidLoad() {
+        do {
+            try AudioKit.stop()
+        } catch {
+            print("error")
+        }
         super.viewDidLoad()
         setTheme()
         updateScale()
         keyAndModePickerView.delegate = self
         keyAndModePickerView.dataSource = self
+        let delay = AKDelay(piano, time: 0.5, feedback: 0, lowPassCutoff: 0, dryWetMix: 0)
+        let mix = AKMixer(delay)
+        AudioKit.output = mix
+        do {
+            try AudioKit.start()
+        } catch {
+            print("error")
+        }
     }
     
     func setTheme() {
@@ -68,6 +86,7 @@ class KeysAndScalesViewController: UIViewController {
         vLabel.layer.cornerRadius = 8
         viLabel.layer.cornerRadius = 8
         viiLabel.layer.cornerRadius = 8
+        playButton.layer.cornerRadius = 8
         if let theme = themeHelper?.themePreference {
             switch theme {
             case "Green":
@@ -77,6 +96,7 @@ class KeysAndScalesViewController: UIViewController {
                 noteLabel.textColor = .myGreen
                 patternLabel.textColor = .myGreen
                 showInLabel.textColor = .myGreen
+                playButton.backgroundColor = .myGreen
                 navigationController?.navigationBar.barTintColor = .myGreen
             case "Blue":
                 view.backgroundColor = .myLightBlue
@@ -85,6 +105,7 @@ class KeysAndScalesViewController: UIViewController {
                 noteLabel.textColor = .myBlue
                 patternLabel.textColor = .myBlue
                 showInLabel.textColor = .myBlue
+                playButton.backgroundColor = .myBlue
                 navigationController?.navigationBar.barTintColor = .myBlue
             default:
                 view.backgroundColor = .myLightPurple
@@ -93,6 +114,7 @@ class KeysAndScalesViewController: UIViewController {
                 noteLabel.textColor = .myPurple
                 patternLabel.textColor = .myPurple
                 showInLabel.textColor = .myPurple
+                playButton.backgroundColor = .myPurple
                 navigationController?.navigationBar.barTintColor = .myPurple
             }
         } else { return }
@@ -125,6 +147,18 @@ class KeysAndScalesViewController: UIViewController {
         flatSharpSetting = flatSharpSegmentedControl.selectedSegmentIndex
         updateScale()
     }
+    
+    @IBAction func playButton(_ sender: UIButton) {
+        guard let scale = scale else {return}
+        piano.start()
+        piano.amplitude = 0.5
+        for note in scale {
+            piano.trigger(frequency: note.frequency)
+            sleep(1)
+        }
+        piano.stop()
+    }
+    
 }
 
 extension KeysAndScalesViewController: UIPickerViewDelegate, UIPickerViewDataSource {
